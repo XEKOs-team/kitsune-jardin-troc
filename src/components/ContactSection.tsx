@@ -27,13 +27,30 @@ const ContactSection = () => {
             <CardContent className="text-center space-y-6">
               <div className="bg-[#5865F2]/10 rounded-lg p-6 border border-[#5865F2]/20">
                 <div className="text-2xl font-bold text-[#5865F2] mb-2">
-                  PetTradeur_Pro#1234
+                  303bx
                 </div>
                 <div className="text-sm text-muted-foreground mb-4">
                   Mon Discord principal pour tous les échanges
                 </div>
                 <Button variant="discord" size="lg" className="w-full">
                   🎮 M'ajouter sur Discord
+                </Button>
+              </div>
+              
+              <div className="bg-gradient-primary/10 rounded-lg p-4 border border-primary/20">
+                <div className="text-lg font-bold text-primary mb-2">
+                  🎮 Roblox: TRN_NAIM
+                </div>
+                <div className="text-sm text-muted-foreground mb-3">
+                  Mon profil Roblox officiel
+                </div>
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => window.open('https://www.roblox.com/users/2250955773/profile', '_blank')}
+                >
+                  📱 Voir mon profil
                 </Button>
               </div>
               
