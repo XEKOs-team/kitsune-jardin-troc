@@ -111,7 +111,7 @@ const ContactSection = () => {
         <div className="text-center mt-16">
           <div className="bg-card/50 backdrop-blur-sm rounded-xl p-8 max-w-4xl mx-auto border border-border/50 glow-card">
             <h3 className="text-2xl font-bold gradient-text mb-4">
-              🌟 Pourquoi choisir PetTradeur Pro ?
+              🌟 Pourquoi choisir 303bx ?
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">

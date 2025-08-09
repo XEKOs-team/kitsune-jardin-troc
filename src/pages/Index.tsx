@@ -17,7 +17,7 @@ const Index = () => {
       <footer className="py-8 bg-card/30 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <div className="text-lg font-bold gradient-text mb-2">
-            🦊 PetTradeur Pro
+            🦊 303bx
           </div>
           <p className="text-sm text-muted-foreground">
             © 2024 • Échanges sécurisés de pets Roblox • Plus de 500 vouches
