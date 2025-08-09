@@ -9,43 +9,33 @@ import phoenixImage from "@/assets/phoenix-pet.png";
 const pets = [
   {
     id: 1,
-    name: "Kitsune Légendaire",
+    name: "Kitsune Rainbow",
     image: kitsuneImage,
-    price: "1,500",
+    price: "1,200",
     rarity: "Légendaire",
     rarityColor: "bg-gradient-accent",
-    description: "Kitsune 9-queues avec effets spéciaux",
-    features: ["✨ Effets brillants", "🔥 Animation unique", "💎 Très rare"]
+    description: "Kitsune aux couleurs arc-en-ciel",
+    features: ["🌈 Effets rainbow", "✨ Animation unique", "💎 Très rare"]
   },
   {
     id: 2,
-    name: "Dragon Cosmique",
+    name: "Kitsune Huge+Mega",
     image: dragonImage,
-    price: "2,000",
+    price: "1,500",
     rarity: "Mythique",
     rarityColor: "bg-gradient-primary",
-    description: "Dragon aux écailles holographiques",
-    features: ["🌟 Écailles rainbow", "⚡ Vol cosmique", "🎆 Particules magiques"]
+    description: "Kitsune de taille énorme avec bonus",
+    features: ["🔥 Taille XXL", "⚡ Bonus mega", "🎆 Effets spéciaux"]
   },
   {
     id: 3,
-    name: "Licorne Enchantée",
+    name: "Kitsune Normal",
     image: unicornImage,
-    price: "1,200",
-    rarity: "Épique",
+    price: "850",
+    rarity: "Rare",
     rarityColor: "bg-gradient-secondary",
-    description: "Licorne avec crinière arc-en-ciel",
-    features: ["🌈 Crinière rainbow", "✨ Corne magique", "🦄 Galop mystique"]
-  },
-  {
-    id: 4,
-    name: "Phénix de Feu",
-    image: phoenixImage,
-    price: "1,800",
-    rarity: "Légendaire",
-    rarityColor: "bg-gradient-accent",
-    description: "Phénix aux flammes éternelles",
-    features: ["🔥 Flammes dorées", "🪶 Vol majestueux", "⚡ Renaissance"]
+    description: "Kitsune classique mais élégant",
+    features: ["🦊 Design original", "✨ Qualité garantie", "💫 Parfait début"]
   }
 ];
 
