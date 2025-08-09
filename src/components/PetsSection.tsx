@@ -14,7 +14,6 @@ const pets = [
     price: "1,200",
     rarity: "Légendaire",
     rarityColor: "bg-gradient-accent",
-    description: "Kitsune aux couleurs arc-en-ciel",
     features: ["🌈 Effets rainbow", "✨ Animation unique", "💎 Très rare"]
   },
   {
@@ -24,7 +23,6 @@ const pets = [
     price: "1,500",
     rarity: "Mythique",
     rarityColor: "bg-gradient-primary",
-    description: "Kitsune de taille énorme avec bonus",
     features: ["🔥 Taille XXL", "⚡ Bonus mega", "🎆 Effets spéciaux"]
   },
   {
@@ -34,7 +32,6 @@ const pets = [
     price: "850",
     rarity: "Rare",
     rarityColor: "bg-gradient-secondary",
-    description: "Kitsune classique mais élégant",
     features: ["🦊 Design original", "✨ Qualité garantie", "💫 Parfait début"]
   }
 ];
@@ -70,7 +67,6 @@ const PetsSection = () => {
                   </div>
                 </div>
                 <CardTitle className="text-2xl gradient-text">{pet.name}</CardTitle>
-                <p className="text-muted-foreground">{pet.description}</p>
               </CardHeader>
               
               <CardContent className="text-center space-y-4">
